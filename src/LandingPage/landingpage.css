@@ -1,0 +1,117 @@
+.landingpage{
+    display: flex;
+    flex-direction: column;
+  
+}
+.landingpageheader{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0px 12px 40px ;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    background: #fff;
+    border-bottom: 2px solid #eaeaea;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    z-index: 997;
+    position: fixed;
+    width: 98%;
+   
+
+}
+.landingpageheadertitle{
+    /* color: #48f110; */
+    color: #FFA500;
+    font-size: 32px;
+   
+    
+}
+
+.landingpageheadercenter{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    grid-gap: 25px;
+    gap: 20px;
+       
+}
+li:hover{
+    color: #FFA500;
+    
+}
+.landingpageheaderbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.landingpageheaderbutton{
+    margin: 1vw;
+}
+
+.landingpagecontent{
+    display: flex;
+    margin-top: 6vh;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 0px;
+  
+
+}
+.landingpagecontentright{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    grid-gap: 20px;
+    gap: 20px;
+
+}
+.landingpagecontentright h1 {
+    font-size: 46px;
+    line-height: 50px;
+  
+    
+   
+}
+.landingpagecontentright h1 span {
+ color: #48f110;
+    font-size: 32px;
+   
+}
+
+.landingpagecontentrightbuttons{
+    display: flex;
+    gap: 60px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.landingpagecontentrightbutton{
+    padding: 10px 20px;
+    background-color: #48f110;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.landingpagecontentrightbutton:hover {
+    background-color:  #FFA500;
+  }
+  
+  .landingpagecontentrightbutton:focus {
+    outline: none;
+  }
+  
+/* .landingpagecontentleft{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+} */
+.resized-image {
+    width: 35vw; /* Set the desired width */
+    height: 60vh;
+    border-radius: 20px; /* Automatically adjust the height to maintain aspect ratio */
+  }
