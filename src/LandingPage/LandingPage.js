@@ -22,10 +22,11 @@ export const LandingPage = () => {
         <h1 className='landingpageheadertitle' onClick={() => scrollToSection(firstSectionRef)} >M S INNOVATIONS</h1>
         <ul className='landingpageheadercenter'>
           {/* Update the onClick event for the "About Us" link */}
-          <li onClick={() => scrollToSection(secondSectionRef)}>About Us</li>
-        <li onClick={() => scrollToSection(thirdSectionRef)}>Products</li>
           <li  onClick={() => scrollToSection(fourthSectionRef)}>Service</li>
+          <li onClick={() => scrollToSection(thirdSectionRef)}>Products</li>
           <li  onClick={() => scrollToSection(fifthSectionRef)}>Blogs</li>
+          <li onClick={() => scrollToSection(secondSectionRef)}>About Us</li>
+
           <li  onClick={() => scrollToSection(sixthSectionRef)}>Contact Us</li>
         </ul>
         <div className='landingpageheaderbuttons'>
@@ -56,14 +57,32 @@ export const LandingPage = () => {
 
       </section>
       
-
+      <section className='landingpagecontent' ref={fourthSectionRef} >
+        <div className='landingpagecontentright'>
+          <h1>
+           Service
+            <span> M S Innovations</span>
+          </h1>
+        </div>
+        <div className='landingpagecontentleft'>
+          <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
+        </div>
+      </section>
 
       <section className='landingpagecontent' ref={secondSectionRef} >
         <div className='landingpagecontentright'>
           <h1>
           About us
             <span> M S Innovations</span>
+
           </h1>
+          <div className='aboutuscontent'>
+          Welcome to M S Innovations!<br/> <br/> 
+
+Founded in 2023 by two visionary brothers, M S Innovations is a pioneering provider<br/>  of 3D printing solutions and personalized gifts based in Bangalore, India. Our mission<br/> is to spread awareness about the incredible potential of 3D printing technology across<br/> the country.<br/>  <br/>  
+
+As a company run by two brothers, M S Innovations embodies the spirit of<br/> collaboration, innovation, and a shared passion for pushing the boundaries of what is <br/>possible. With a deep understanding of the transformative power of 3D printing, we <br/>have built a reputation for excellence and craftsmanship in our industry.
+</div>
         </div>
         <div className='landingpagecontentleft'>
           <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
@@ -80,17 +99,7 @@ export const LandingPage = () => {
           <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
         </div>
       </section>
-      <section className='landingpagecontent' ref={fourthSectionRef} >
-        <div className='landingpagecontentright'>
-          <h1>
-           Service
-            <span> M S Innovations</span>
-          </h1>
-        </div>
-        <div className='landingpagecontentleft'>
-          <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
-        </div>
-      </section>
+     
       <section className='landingpagecontent' ref={fifthSectionRef}>
         <div className='landingpagecontentright'>
           <h1>
