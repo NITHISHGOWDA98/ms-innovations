@@ -49,8 +49,75 @@ li:hover{
 .productpageheaderbutton{
     margin: 1vw;
 }
-.productpagecontent{
+.productpagecontent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three columns of equal width */
+    gap: 40px; /* Add some gap between images */
+    margin-top: 15vh;
+    padding: 20px;
+  }
+  
+  /* Style for each individual product item */
+  .product-item {
     display: flex;
     flex-direction: column;
-    margin-top: 15vh;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc; /* Add a border around each product item */
+    border-radius: 10px; /* Optional: Add some border-radius for a rounded look */
+    overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box-shadow for a lift effect */
+    transition: transform 0.3s;
+  }
+  
+  .product-resized-image {
+    height: 250px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 250px;
+    
+  }
+  .product-item:hover {
+  transform: scale(1.1); 
+  opacity: 1;  
+ 
 }
+  
+  .product-item-price{
+    margin-top: 20px;
+  }
+  .product-item-buttons{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .product-item-button1 {
+    margin: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    border-radius:27px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #FFA500, #FF8000);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .product-item-button2{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    border-radius:27px;
+    padding: 10px 20px;
+    background:#f6dc13;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }

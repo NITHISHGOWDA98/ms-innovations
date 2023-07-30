@@ -26,7 +26,6 @@ export const LandingPage = () => {
           <li onClick={() => scrollToSection(thirdSectionRef)}>Products</li>
           <li  onClick={() => scrollToSection(fifthSectionRef)}>Blogs</li>
           <li onClick={() => scrollToSection(secondSectionRef)}>About Us</li>
-
           <li  onClick={() => scrollToSection(sixthSectionRef)}>Contact Us</li>
         </ul>
         <div className='landingpageheaderbuttons'>
@@ -61,19 +60,22 @@ export const LandingPage = () => {
         <div className='landingpagecontentright'>
           <h1>
            Service
-            <span> M S Innovations</span>
+           
           </h1>
+          <div className='servicescontent'>
+            <div className='servicescontent1'>Personalized Gifts</div>
+            <div className='servicescontent2'>Miniature House model</div>
+            <div className='servicescontent3'>Creat Your Own </div>
+          </div>
         </div>
-        <div className='landingpagecontentleft'>
-          <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
-        </div>
+        
       </section>
 
       <section className='landingpagecontent' ref={secondSectionRef} >
         <div className='landingpagecontentright'>
           <h1>
           About us
-            <span> M S Innovations</span>
+            
 
           </h1>
           <div className='aboutuscontent'>
@@ -88,23 +90,13 @@ As a company run by two brothers, M S Innovations embodies the spirit of<br/> co
           <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
         </div>
       </section>
-      <section className='landingpagecontent'  ref={thirdSectionRef}  >
-        <div className='landingpagecontentright'>
-          <h1>
-           Products
-            <span> M S Innovations</span>
-          </h1>
-        </div>
-        <div className='landingpagecontentleft' >
-          <img src={msInnovationsImg} alt='imagemain' className='resized-image' />
-        </div>
-      </section>
+     
      
       <section className='landingpagecontent' ref={fifthSectionRef}>
         <div className='landingpagecontentright'>
           <h1>
            Blogs
-            <span> M S Innovations</span>
+            
           </h1>
         </div>
         <div className='landingpagecontentleft'>
@@ -115,7 +107,7 @@ As a company run by two brothers, M S Innovations embodies the spirit of<br/> co
         <div className='landingpagecontentright'>
           <h1>
           Contact us
-            <span> M S Innovations</span>
+            
           </h1>
         </div>
         <div className='landingpagecontentleft'>
