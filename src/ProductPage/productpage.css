@@ -16,9 +16,11 @@
     z-index: 997;
     position: fixed;
     width: 98%;
-   
-
 }
+
+#main-header {
+    text-decoration: none;
+  }
 .productpageheadertitle{
     /* color: #48f110; */
     color: #FFA500;

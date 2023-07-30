@@ -1,11 +1,14 @@
 import React from 'react'
 import "./productpage.css"
+import { Link } from 'react-router-dom'
 
 const ProductPage = () => {
     return (
         <div className='productpagemaincontainer' >
             <div className='  productpageheader'>
+                <Link to="/" id="main-header">
                 <h1 className='  productpageheadertitle'  >M S INNOVATIONS</h1>
+                </Link>
                 <ul className='  productpageheadercenter'>
                     {/* Update the onClick event for the "About Us" link */}
                     <li >About Us</li>
