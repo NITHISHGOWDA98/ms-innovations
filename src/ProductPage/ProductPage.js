@@ -36,7 +36,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={flipname} alt='imagemain' className='product-resized-image' />
                     <div><b>Flip Name</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 650</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -48,7 +48,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={catpenstand} alt='imagemain' className='product-resized-image' />
                     <div><b>Cat Pen Stand</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 550</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -59,7 +59,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={namepenstand} alt='imagemain' className='product-resized-image' />
                     <div><b>Name Pen Stand</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 650</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -70,7 +70,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={penstand} alt='imagemain' className='product-resized-image' />
                     <div><b>Pen Stand</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 550</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -80,8 +80,8 @@ const ProductPage = () => {
                 </div>
                 <div className="product-item">
                     <img src={photokeychain} alt='imagemain' className='product-resized-image' />
-                    <div><b>Photo Key Chain</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div><b>Photo Key Chain (pack of 3)</b>
+                    <div className="product-item-price">Price :- 350</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -92,7 +92,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={robomobilestand} alt='imagemain' className='product-resized-image' />
                     <div><b>Robo Mobile Stand</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 750</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
@@ -103,7 +103,7 @@ const ProductPage = () => {
                 <div className="product-item">
                     <img src={ironarccreator} alt='imagemain' className='product-resized-image' />
                     <div><b>IronMan Arc Reactor</b>
-                    <div className="product-item-price">Price :- 5000</div>
+                    <div className="product-item-price">Price :- 3500</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
                     <div  className="product-item-button1">Buy Now</div>
