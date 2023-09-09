@@ -51,8 +51,9 @@ const ProductPage = () => {
                     <div className="product-item-price">Price :- 550</div>
                     <div className="product-item-buttons" >
                     <div  className="product-item-button2">Add to cart</div>
+                    <Link to = "/orderpage">
                     <div  className="product-item-button1">Buy Now</div>
-                   
+                    </Link>
                     </div>
                     </div>
                 </div>

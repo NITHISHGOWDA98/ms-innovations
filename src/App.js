@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter ,Routes,Route} from "react-router-dom";
 import { LandingPage } from './LandingPage/LandingPage';
 import ProductPage from './ProductPage/ProductPage';
+import BuyNow from './BuyNow.js/BuyNow';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
        <Route path = "/" element = {  <LandingPage/>} />
        <Route path = "/products" element = {  <ProductPage/>} />
+       <Route path = "/orderpage" element = {  <BuyNow/>} />
 
 
       

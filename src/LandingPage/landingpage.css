@@ -62,6 +62,16 @@ li:hover{
     display: flex;
     text-align: justify;
 }
+.personalizedgift{
+    display: flex;
+    text-align: left;
+    font-size: 32px;
+}
+.headings{
+    color: #48f110;
+    font-size: 32px;
+
+}
 
 .servicescontent{
     display: flex;
